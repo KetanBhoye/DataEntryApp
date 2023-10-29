@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:padding="10dp"
+    >
+
+    <EditText
+        android:id="@+id/inp_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        style="@style/Widget.AppCompat.EditText"
+        />
+    <EditText
+        android:id="@+id/inp_mobNo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Phone No"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        style="@style/Widget.AppCompat.EditText"
+
+        />
+    <ImageView
+        android:id="@+id/inp_profileImg"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/btn_ChooseImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text ="Select Image"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Contact"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
